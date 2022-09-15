@@ -1,4 +1,5 @@
 #include "main.h"
+
 /**
  * print_alphabet - Entry point
  * Description: a function that prints the alphabet,
@@ -11,8 +12,8 @@ void print_alphabet(void)
 
 	while (letter <= 'z')
 	{
-		putchar(letter);
+		_putchar(letter);
 		letter++;
 	}
-	putchar('\n');
+	_putchar('\n');
 }
