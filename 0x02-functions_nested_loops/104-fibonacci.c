@@ -1,9 +1,8 @@
 #include <stdio.h>
 
-
 /**
- * numLength - returns the lenth of string
- * @num : operand number
+ * numLength - returns the length of string
+ * @num: operand number
  * Return: number of digits
  */
 
@@ -21,12 +20,12 @@ int numLength(int num)
 		num = num / 10;
 		length += 1;
 	}
-
 	return (length);
 }
+
 /**
- *  *main - prints the first 98 fibonaci sequences
- *  Return: 0
+ * main - Prints the first 98 fibonaci sequences
+ * Return: 0
  */
 
 int main(void)
@@ -56,8 +55,9 @@ int main(void)
 		if (i != 98)
 			printf(", ");
 		else
-			printf("\n");
+			printf(", ");
 		i++;
+
 	}
 	return (0);
 }

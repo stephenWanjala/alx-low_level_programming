@@ -1,25 +1,23 @@
 #include <stdio.h>
-#include <unistd.h>
 /**
- * main - Entry point
- * Description: prints numbers
+ * main - entry point
+ * Description: prints numbers between 0 to 9 with commas and spaces
  * Return: Always 0 (success)
- */
+*/
 int main(void)
 {
 	int i;
 
-	for (i = '0'; i <= '9' ; i++)
+	for (i = 48; i < 58; i++)
 	{
 		putchar(i);
 
-		if (i != '9')
+		if (i != 57)
 		{
 			putchar(',');
 			putchar(' ');
 		}
 	}
-
 	putchar('\n');
 	return (0);
 }

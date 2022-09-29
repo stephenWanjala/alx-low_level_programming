@@ -2,13 +2,13 @@
 #include <stdlib.h>
 #include <time.h>
 /**
- * main - Entry point
+ * main - entry point
  * Description: checks on the last digit of the assigned var
  * Return: Always 0 (success)
  */
 int main(void)
 {
-	int n, m;
+int n, m;
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
@@ -21,7 +21,7 @@ int main(void)
 	{
 		printf("Last digit of %d is %d and is less than 6 and not 0\n", n, m);
 	}
-	else
+	else if (m == 0)
 	{
 		printf("Last digit of %d is %d and is 0\n", n, m);
 	}

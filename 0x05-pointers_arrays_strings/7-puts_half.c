@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- * puts_half - prints the second half of the string
- * @str: the string reference
+ * puts_half - This prints out the second half of the string
+ * @str: This is the stting reference
  * Return: 0
  */
 

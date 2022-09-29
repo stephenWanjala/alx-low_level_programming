@@ -1,9 +1,8 @@
-
 #include <stdio.h>
 #include <unistd.h>
 /**
  * main - Entry point
- * Description: prints the alphabet in lowercase\n
+ * Description: prints the alphabeth in lowercase\n
  * Return: Always 0 (success)
  */
 int main(void)
@@ -15,5 +14,5 @@ int main(void)
 		putchar(ch);
 	}
 	putchar('\n');
-return (0);
+	return (0);
 }

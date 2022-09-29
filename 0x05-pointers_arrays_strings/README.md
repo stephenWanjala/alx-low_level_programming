@@ -1,1 +1,1 @@
-pointers and arrays
+This directory displays codes with pointers, arrays and strings

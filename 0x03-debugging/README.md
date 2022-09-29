@@ -1,1 +1,1 @@
-Learning how to debug code.
+This is about debugging in c programming

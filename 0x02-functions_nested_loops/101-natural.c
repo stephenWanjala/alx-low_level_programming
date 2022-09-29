@@ -2,8 +2,9 @@
 
 /**
  * main - Prints the sum of all multiples of 3 or 5 up to 102
- * Return: Always (Success)
+ * Return: Always (success)
  */
+
 int main(void)
 {
 	int i, z = 0;
